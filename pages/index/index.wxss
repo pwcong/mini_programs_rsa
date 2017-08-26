@@ -1,0 +1,27 @@
+/**index.wxss**/
+.row{
+  width: 100%;
+
+  box-sizing: border-box;
+  padding: 10rpx;
+}
+
+.row:not(:last-child){
+  margin-bottom: 16rpx;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.row .left{
+
+  font-size: 16px;
+  margin-bottom: 12rpx;
+  
+  padding-left: 16rpx;
+
+  border-left: 2px solid deepskyblue;
+
+}
+.row .right{
+  overflow-x: auto;
+  font-size: 12px;
+}

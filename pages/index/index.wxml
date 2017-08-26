@@ -1,0 +1,21 @@
+<!--index.wxml-->
+<view class="container">
+
+  <view class="row">
+    <view class="left">Private Key:</view>
+    <view class="right">{{privateKey}}</view>
+  </view>
+  <view class="row">
+    <view class="left">Public Key:</view>
+    <view class="right">{{publicKey}}</view>
+  </view>
+  <view class="row">
+    <view class="left">PlainText:</view>
+    <view class="right">{{plainText}}</view>
+  </view>
+  <view class="row">
+    <view class="left">CipherText:</view>
+    <view class="right" style="word-wrap: break-word;">{{cipherText}}</view>
+  </view>
+
+</view>
